@@ -1,0 +1,84 @@
+{
+  "editor.tabSize": 2,
+  "editor.formatOnSave": true,
+  "javascript.validate.enable": false,
+
+  "terminal.integrated.shell.osx": "/bin/zsh",
+  "terminal.integrated.scrollback": 10000,
+  "terminal.integrated.macOptionIsMeta": true,
+  "editor.cursorBlinking": "solid",
+  "editor.smoothScrolling": true,
+  "search.smartCase": true,
+  "workbench.fontAliasing": "auto",
+  "window.zoomLevel": 0,
+  "window.openFoldersInNewWindow": "on",
+  "git.confirmSync": false,
+  "editor.minimap.enabled": false,
+  "[typescript]": {
+    "editor.tabSize": 2
+  },
+  "[javascript]": {
+    "editor.tabSize": 2
+  },
+  "[scss]": {
+    "editor.tabSize": 2
+  },
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/*.pyc": true
+  },
+  "vim.leader": "<space>",
+  "vim.hlsearch": true,
+  "vim.foldfix": true,
+  "vim.history": 500,
+  "vim.easymotion": true,
+  "vim.sneak": true,
+  "vim.incsearch": true,
+  "vim.useSystemClipboard": true,
+  "vim.useCtrlKeys": true,
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "j"],
+      "after": ["<Esc>"]
+    }
+  ],
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["<leader>", "d"],
+      "after": ["d", "d"]
+    },
+    {
+      "before": ["<C-n>"],
+      "commands": [":nohl"]
+    }
+  ],
+  "vim.handleKeys": {
+    "<C-a>": false,
+    "<C-f>": false
+  },
+  "workbench.startupEditor": "newUntitledFile",
+  "eslint.autoFixOnSave": true,
+  "prettier.semi": false,
+  "breadcrumbs.enabled": true,
+  "eslint.options": {
+    "experimentalDecorators": true
+  },
+  "javascript.implicitProjectConfig.experimentalDecorators": true,
+  "html.format.endWithNewline": true,
+  "html.format.indentHandlebars": true,
+  "html.format.indentInnerHtml": true,
+  "editor.fontWeight": "bold",
+  "prettier.jsxBracketSameLine": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "javascript.autoClosingTags": false,
+  "javascript.implicitProjectConfig.checkJs": true,
+  "typescript.updateImportsOnFileMove.enabled": "never",
+  "cSpell.language": "en",
+  "leetcode.defaultLanguage": "javascript",
+  "git.autofetch": true,
+  "sync.gist": "fbc595ed1e5b9711eb3e47c222321623"
+}
