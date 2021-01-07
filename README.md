@@ -53,6 +53,8 @@
   ```
   mkdir .tmux.conf
   
+  source .tmux.conf(outside of tmux)
+  
   ```
    
   
