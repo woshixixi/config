@@ -51,7 +51,7 @@
   ```
 6. config tmux
   ```
-  mkdir .tmux.conf
+  touch .tmux.conf
   
   source .tmux.conf(outside of tmux)
   
