@@ -56,5 +56,11 @@
   source .tmux.conf(outside of tmux)
   
   ```
+7. To disable the Apple press and hold for VSCode only, run this command in a terminal:
+
+   ```
+   defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool false
+   ```
+   https://stackoverflow.com/questions/39972335/how-do-i-press-and-hold-a-key-and-have-it-repeat-in-vscode/44010683#44010683
    
   
