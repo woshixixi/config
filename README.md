@@ -62,5 +62,14 @@
    defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool false
    ```
    https://stackoverflow.com/questions/39972335/how-do-i-press-and-hold-a-key-and-have-it-repeat-in-vscode/44010683#44010683
+
+   For Cursor：
+   ```
+   Execute osascript -e 'id of app "Cursor"'
+   Grab the output of the command. In my case, it's com.todesktop.230313mzl4w4u92 (I am not sure if this is the same for everyone)
+   Execute the following with your output defaults write com.todesktop.230313mzl4w4u92 ApplePressAndHoldEnabled -bool false
+   Restart the application
+   ```
+   reference : https://github.com/cursor/cursor/issues/801
    
   
